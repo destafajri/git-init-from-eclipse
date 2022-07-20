@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19631" started-at="2022-07-20T11:41:54 ICT" finished-at="2022-07-20T11:42:13 ICT">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@6acdbdf5]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="19631" started-at="2022-07-20T11:41:54 ICT" finished-at="2022-07-20T11:42:13 ICT">
+      <class name="runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.Runner@6acdbdf5]" name="setUpClass" is-config="true" duration-ms="318" started-at="2022-07-20T11:41:54 ICT" finished-at="2022-07-20T11:41:54 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@6acdbdf5]" name="runScenario" duration-ms="10989" started-at="2022-07-20T11:41:54 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T11:42:05 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Valid Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Payment Test(DESTA)"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@6acdbdf5]" name="runScenario" duration-ms="8082" started-at="2022-07-20T11:42:05 ICT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-07-20T11:42:13 ICT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["inValid Test"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Payment Test(DESTA)"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.Runner@6acdbdf5]" name="tearDownClass" is-config="true" duration-ms="190" started-at="2022-07-20T11:42:13 ICT" finished-at="2022-07-20T11:42:13 ICT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
